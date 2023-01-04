@@ -47,3 +47,10 @@ streamlit.text(my_data_row)
 
 add_my_fruit = streamlit.text_input("Second Text entry box","jackfruit")
 streamlit.write('The user entered ', add_my_fruit)
+streamlit.write("Thanks adding my fruit", add_my_fruit)
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+
+
+
+
+
